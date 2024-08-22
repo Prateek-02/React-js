@@ -33,3 +33,7 @@ console.log(arr2);
 let arr3 = [1,2,3,4];
 arr3.copyWithin(1,3);
 console.log(arr3);
+
+// array destructuring
+let arr = ["a","b","c","d"];
+console.log(arr[3]);
