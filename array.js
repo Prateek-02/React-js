@@ -33,4 +33,3 @@ console.log(arr2);
 let arr3 = [1,2,3,4];
 arr3.copyWithin(1,3);
 console.log(arr3);
-
