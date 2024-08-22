@@ -24,8 +24,8 @@ let score3 = 300
 
 console.log(Array.of(score1,score2,score3));
 
-// copy within
+// copy within:- 
 
 let arr2 = [1,2,3,4,5,6,7,8,9];
-arr2.copyWithin(1,3,5);
+arr2.copyWithin(1,3,5); // copy the value from index 3 to 4 in the index 1, which is 4,5 -> [1,4,5,4,5,6,7,8,9];
 console.log(arr2);
