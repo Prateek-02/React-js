@@ -12,10 +12,10 @@ function Navigation(props)
           <a href="/about">About</a>
         </li>
         <li>
-          <a href="/services">{props.title}</a>
+          <a href="/services">Services</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="/contact">{props.type}</a>
         </li>
       </ul>
     </nav>

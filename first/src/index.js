@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Navigation from './Navigation';
+import Paragraph, { SecondParagraph, ThirdPara } from './Paragraph';
+
 ReactDOM.render(
   <div>
       <Navigation/>
-      <h1>Heading 1</h1>
-      <p>Paragraph 3</p>
-      <p>Hello</p>
-    </div>,
+      <Paragraph/>
+      <SecondParagraph/>
+      <ThirdPara/>
+  </div>,
     document.getElementById("root")
 );
 
