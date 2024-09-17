@@ -1,0 +1,131 @@
+
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+
+    padding: 20px;
+    color: white;
+  }
+  
+  .header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-grow: 1;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .search-container button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 3px;
+  }
+ 
+  .main-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .content-section {
+    flex: 2;
+    padding: 20px;
+    margin-right: 20px;
+    background-color:white;
+    text-align: left; 
+  }
+  
+  .main-heading {
+    text-align: center; 
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .content-section h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .content-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .related-section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .related-section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .related-list {
+    padding: 10px;
+    text-decoration: underline;
+  }
+  
+  .related-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+  .footer {
+    margin-top: 20px;
+    margin-left: 18px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 80%;
+    text-align: left;
+  }
+  
