@@ -5,6 +5,7 @@ import Form from './Form';
 import Useref from './Useref';
 import Child from './Child';
 import Reducer from './Reducer';
+import Usecallback from './Usecallback';
 
 // Create Contexts
 export const NameContext = createContext();
@@ -27,6 +28,7 @@ function App() {
       <Form />
       <Useref />
       <Reducer />
+      <Usecallback/>
     </div>
   );
 }
