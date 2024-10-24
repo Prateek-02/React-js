@@ -1,24 +1,28 @@
 import { createContext } from 'react';
 import './App.css';
-import Counter from './Counter';
-import Form from './Form';
-import Useref from './Useref';
-import Child from './Child';
-import Reducer from './Reducer';
-import Usecallback from './Usecallback';
+// import Counter from './Counter';
+// import Form from './Form';
+// import Useref from './Useref';
+// import Child from './Child';
+// import Reducer from './Reducer';
+// import Usecallback from './Usecallback';
+// import Usememo from './Usememo';
+// import NumberCounter from './NumberCounter';
+// import Usecounter from './Usecounter'
+import AuthPage from './AuthPage';
 
 // Create Contexts
 export const NameContext = createContext();
 export const AgeContext = createContext();
 
 function App() {
-  const Name = "Xyz";
-  const Age = 23;
+  // const Name = "Xyz";
+  // const Age = 23;
 
   return (
     <div>
       {/* Use 'Provider' with a capital 'P' */}
-      <NameContext.Provider value={Name}>
+      {/* <NameContext.Provider value={Name}>
         <AgeContext.Provider value={Age}>
           <Child />
         </AgeContext.Provider>
@@ -29,6 +33,10 @@ function App() {
       <Useref />
       <Reducer />
       <Usecallback/>
+      <Usememo/>
+      <NumberCounter/>
+      <Usecounter/> */}
+      <AuthPage />
     </div>
   );
 }
